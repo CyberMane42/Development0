@@ -1,0 +1,58 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<title>Restaurant Survey</title>
+		<meta charset="utf8">
+		<link rel="stylesheet" href="MiniProject2.css" />
+	</head>
+	<main>
+		<body>
+			<form>
+				<h1>Brandon's Bar</h1>
+				<p> Please take some time to take this survey and tell us about your experience at our bar!</p>
+				<div>
+					<label for="firstName">Name:</label>
+					<input id="firstName" type="textbox" class="txBox" required>
+				</div>
+
+				<div>
+					<label type="number" for="age">Age:</label>
+					<input id="age" type="textbox" class="txBox">
+				</div>
+
+				<div>
+					<label>What type of drinks do you enjoy?</label>
+					<input type="checkbox" id="check1"><label for="check1">Beer</label>
+					<input type="checkbox" id="check2"><label for="check2">Wine</label>
+					<input type="checkbox" id="check3"><label for="check3">Liquor</label>
+				</div>
+
+				<div>
+					<label>Which Cocktail was your Favorite?</label>
+					<input type="radio" id="option1" name="drink"><label for="option1">Old Fashioned</label>
+					<input type="radio" id="option2" name="drink"><label for="option2">Martini</label>
+					<input type="radio" id="option3" name="drink"><label for="option3">French 75</label>
+				</div>
+
+				<div>
+					<label for="seating">Where did you sit?</label>
+					<select id="seating" class="txBox">
+						<option>(Select an Option)</option>
+						<option>Bar</option>
+						<option>Dining Area</option>
+						<option>Deck</option>
+					</select>
+				</div>
+
+				<div>
+					<label>Do you have any suggestions for us?</label>
+					<br />
+					<textarea id="suggestions" class="txBox"></textarea>
+				</div>
+
+			</form>
+		</body>
+	</main>
+
+
+</html>

@@ -1,0 +1,49 @@
+
+main {
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/02627ad9-fbbb-4cc3-bde2-8b06cde6e0a1/dfmci5j-1a224516-5345-4a95-a80f-8cda52d52794.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAyNjI3YWQ5LWZiYmItNGNjMy1iZGUyLThiMDZjZGU2ZTBhMVwvZGZtY2k1ai0xYTIyNDUxNi01MzQ1LTRhOTUtYTgwZi04Y2RhNTJkNTI3OTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gt3GVceiId7ImDeW2lFEszT4C8YQqCeSNWD1-QG_jeY);	
+	margin: -10px;
+}
+
+h1 {
+	color: maroon;
+	padding-bottom: 10px;
+}
+
+
+body 	{
+		
+	text-align: center;
+		
+	}
+
+h1 , p {
+	margin: auto;
+	border-bottom: 3px solid black;
+	max-width: 70%;
+}
+
+div {
+	margin-top: 50px;
+	margin-left: 10px;
+	}
+
+textarea {
+	height: 200px;
+	width: 300px;	
+	margin-top: 10px;
+	
+}
+
+.txBox {
+	border: 2px, solid, black;
+}
+
+form {
+	background-color: grey;
+	max-width: 60%;
+
+	margin: 10px auto 10px auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: Lucida Console;
+}
