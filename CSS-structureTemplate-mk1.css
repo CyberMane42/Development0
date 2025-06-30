@@ -1,0 +1,43 @@
+h1 { 
+	font-size: 32;
+}
+
+
+.mainContent {
+	text-color: blue;
+	text-align: center;
+	background-color: moccasin;
+	width: 80%;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid;
+	border-color: linear-gradient(silver, black);
+	font-size: 32px;
+}
+
+.list {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	min-width: 200px;
+	border: 5px solid slategray;
+	text-align: left;
+	background: black;
+	color: white;
+}
+
+.topPic {
+	max-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+body {
+	background: slategray;
+	}
+
+a:hover {
+	color: white;
+}
