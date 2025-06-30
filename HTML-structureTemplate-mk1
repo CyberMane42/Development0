@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Title Here</title>
+	<link rel="stylesheet" href=".css">
+</head>
+<div class="mainContent">
+	<h1>The Strokes</h1>
+	<img class="topPic" src="http://student.uncw.edu/bd2553/CIT310/MP1img(1).png" alt="An electric guitar amplifier."
+	<body>
+		<p>'The Strokes' is an alternative rock band. Here are some fun facts about them:</p>
+		
+		<div class="list">
+		<ul>
+			<li>The Strokes formed in New York City in 1998.</li>
+			<li>They were massively influential in sparking the post-punk and garage rock revivals.</li>
+			<li>Arguably more popular bands like the Arctic Monkeys, The Killers, and Kings of Leon were influenced by the Strokes.</li>
+			<li>Lead singer and primary songwriter Julian Casablancas also leads a more experimental band called the Voidz.</li>
+		</ul>
+		</div>
+	
+	</body>	
+	<img src="https://www.wannapik.com/media/W1siZiIsIjIwMTYvMDgvMjIvNWFnMTYwMjNjZV8yOG53czZmcnZhX2FydHMwMDEzLnBuZyJdXQ/690602a376dca31b/28nws6frva_arts0013.png" alt="A red stratocaster.">
+	<p>Read more on their <a target="blank" href="https://www.thestrokes.com/">website</a></p>
+</div>
+
+</html>
