@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Blog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My Project Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#posts">Posts</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About This Project</h2>
+    <p>Welcome to my project blog! Here I share updates, challenges, and milestones from my development journey.</p>
+  </section>
+
+  <section id="posts">
+    <h2>Blog Posts</h2>
+
+    <article>
+      <h3>Initial Setup & Vision</h3>
+      <p><time datetime="2025-07-07">July 7, 2025</time></p>
+      <p>This post kicks off my project and outlines the goals, tools, and approach I’ll be using.</p>
+      <a href="#">Read more</a>
+    </article>
+
+    <article>
+      <h3>Configuration Deep Dive</h3>
+      <p><time datetime="2025-07-08">July 8, 2025</time></p>
+      <p>Exploring key system configurations including authentication flows, encryption schemes, and deployment strategies.</p>
+      <a href="#">Read more</a>
+    </article>
+    
+    <!-- Additional posts go here -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="/submit-form" method="POST">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+      
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+      
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="5"></textarea><br />
+      
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Brandon's Blog. All rights reserved.</p>
+  </footer>
+</body>
+</html>
