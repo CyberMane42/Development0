@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Blog</title>
+  <link rel="stylesheet" href="CSS-structureTemplate-mk3.css" />
+</head>
+<body>
+  <header>
+    <h1>Ai video generation</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#posts">Posts</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About This Project</h2>
+    <p>Welcome to my project blog! Here I share updates, challenges, and milestones from my development journey.</p>
+  </section>
+
+  <section id="posts">
+    <h2>Blog Posts</h2>
+
+    <article>
+      <h3>Initial Thoughts</h3>
+      <p>Ai video generation is a lot less impressive than I thought it would be</p>
+      <a href="#">Read more</a>
+    </article>
+
+    
+    
+    <!-- Additional posts go here -->
+  </section>
+
+  
+
+  <footer>
+    <p>&copy; 2025 Brandon's Blog. All rights reserved.</p>
+  </footer>
+</body>
+</html>
